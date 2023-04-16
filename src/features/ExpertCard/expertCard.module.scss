@@ -1,0 +1,67 @@
+@use 'styles/style.scss' as *;
+
+.expertCard {
+  width: 388px;
+  max-width: 388px;
+  height: 437px;
+  background: $color-white;
+  box-shadow: 0px 6px 16px rgba(0, 35, 102, 0.18);
+  border-radius: 12px;
+  padding: 32px 42px 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarWrapper {
+  position: relative;
+  .onlineIndicator {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 0.5px solid $color-white;
+    background-color: $color-metallic-seaweed;
+    bottom: 6px;
+    right: 15.5px;
+  }
+}
+
+.name {
+  margin-top: 24px;
+  color: $color-midnight-blue;
+  font-size: 16px;
+  font-weight: $fw-extrabold;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.specialization {
+  text-align: center;
+  margin-top: 11px;
+  font-size: 14px;
+  font-weight: $fw-regular;
+  color: #9fa5b5;
+}
+
+.aboutExpert {
+  text-align: center;
+  margin-top: 24px;
+  color: $color-midnight-blue;
+  font-size: 14px;
+  font-weight: $fw-regular;
+}
+
+.massageWrapper {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  //   cursor: pointer;
+}
+
+.messageText {
+  color: $color-metallic-seaweed;
+  font-weight: $fw-regular;
+  font-size: 14px;
+}

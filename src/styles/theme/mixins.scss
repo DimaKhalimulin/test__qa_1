@@ -1,0 +1,49 @@
+@mixin placeholder {
+  font-family: $font-HindMadurai;
+  font-size: 16px;
+  line-height: 14px;
+  font-weight: $fw-regular;
+  color: $color-french-grey;
+}
+
+@mixin regularText {
+  font-family: Hind Madurai, sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: $fw-regular;
+}
+
+@mixin boldText {
+  font-family: Hind Madurai, sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: $fw-bold;
+}
+
+@mixin mediumText {
+  font-family: Hind Madurai, sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: $fw-medium;
+}
+
+@mixin regularText16 {
+  font-family: Hind Madurai, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: $fw-regular;
+}
+
+@mixin boldText16 {
+  font-family: Hind Madurai, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: $fw-bold;
+}
+
+@mixin boldText16FiraSans {
+  font-family: Fira Sans, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: $fw-extrabold;
+}

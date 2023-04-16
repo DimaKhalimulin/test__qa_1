@@ -1,0 +1,13 @@
+@use 'styles/style.scss' as *;
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withBorder {
+  padding: 1.5px;
+  border: 1.5px solid $color-midnight-blue;
+  border-radius: 50%;
+}
